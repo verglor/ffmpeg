@@ -1,12 +1,13 @@
 #!/bin/bash
 
+path=${INPUT_PATH}
 mask=${INPUT_REGEX:-"\.(mkv|mp4|avi|ts|flv)$"}
 ext=${OUTPUT_EXT:-mkv}
 nice=${PROCESS_NICE:-10}
 
 cd /input
 
-find . -type f | egrep -i "$mask" | sort | cut -c 3- | while read input
+find "./$path" -type f | egrep -i "$mask" | sort | cut -c 3- | while read input
 do
 
     echo

@@ -1,4 +1,4 @@
-FROM jrottenberg/ffmpeg
+FROM jrottenberg/ffmpeg:alpine
 
 MAINTAINER Jaroslav Kostal <jaroslav@kostal.sk>
 

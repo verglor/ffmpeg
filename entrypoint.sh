@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 path=${INPUT_PATH}
 mask=${INPUT_REGEX:-"\.(mkv|mp4|avi|ts|flv)$"}

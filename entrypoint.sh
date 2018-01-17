@@ -1,7 +1,7 @@
 #!/bin/sh
 
 path=${INPUT_PATH}
-mask=${INPUT_REGEX:-"\.(mkv|mp4|avi|ts|flv)$"}
+mask=${INPUT_REGEX:-"\.(mkv|mp4|avi|ts|flv|mov|m4v|mpg|mpeg|wmv|asf|rmvb)$"}
 video_codec_skip=${INPUT_VIDEO_CODEC_SKIP:-hevc}
 ext=${OUTPUT_EXT:-mkv}
 nice=${PROCESS_NICE:-10}
